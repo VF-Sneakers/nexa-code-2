@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nexa Sneakers</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <!-- TOPO -->
+  <header>
+    <div class="logo">
+      <a href="../../pages/inicio/home.html">
+        <img clas="logo" src="../../img/logos/logoNEXAbranco.png" alt="VF Sneakers">
+      </a>
+    </div>
+    <nav>
+      <a href="../MEN/mens.html">MASCULINO</a>
+      <a href="../WOMAN/index.html">FEMININO</a>
+      <a href="../KIDS/index.html">INFANTIL</a>
+     
+    </nav>
+    <div class="buttons">
+      <button class="cadastro" onclick="window.location.href='../../pages/cadastro_usuarios/cadastro.html'">
+        CADASTRAR-SE
+      </button>
+      <button class="entrar">ENTRAR</button>
+    </div>
+  </header>
+
+    <!-- PopUp de Login -->
+<div class="overlay" id="overlay">
+  <div class="popup">
+    <span class="fechar" onclick="fecharPopup()">×</span>
+    <img src="../../img/logos/logoNEXApreto.png" alt="Nexa Sneakers" style="width:120px;">
+    <h2>LOGIN</h2>
+
+    <!-- Adicione id e method para enviar pro PHP quando não for admin -->
+  <form method="POST" action="../../PHP/login.php">
+    <input type="email" name="email" id="email" placeholder="EMAIL">
+    <input type="password" name="senha" id="senha" placeholder="SENHA">
+
+    <span class="recuperar">Esqueceu a senha? Recuperar</span>
+    <br>
+
+    <button type="submit" class="btn-entrar">ENTRAR</button>
+    
+    <button type="button" class="btn-cadastrar" onclick="window.location.href='../../pages/cadastro_usuarios/cadastro.html'">CRIAR CONTA</button>
+</form>
+  </div>
+</div>
+
+<script src="../../scripts/login_admin.js"></script>
+
+ <script src="../../scripts/popup_login.js"></script>
+
+  <!-- PRINCIPAL -->
+  <main>
+    <section class="card brown">
+      <img src="../../img/logos/imagem force-retro.png" alt="Air Force">
+      <h1>AIR FORCE</h1>
+    </section>
+
+    <section class="card beige">
+      <img src="../../img/logos/imagem forum.png" alt="Forum">
+      <h1>FORUM</h1>
+    </section>
+
+    <section class="card gray">
+      <img src="../../img/logos/imagem rs-x.png" alt="RS-X">
+      <h1>RS-X</h1>
+    </section>
+    
+    
+
+  </main>
+
+  
+
+  
+  
+</body>
+</html>

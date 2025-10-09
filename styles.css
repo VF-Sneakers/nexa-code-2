@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ddd;
+    font-family: 'Helvetica', sans-serif;
+    color: #111;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+  }
+  
+  .logo img {
+    width: 90px;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -160px;
+  }
+  nav a {
+    margin: 0 75px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #111;
+    margin: 0 75px;
+  }
+  .btn-nomes{
+    cursor: pointer;
+    text-align: left;
+    background-color: white;
+    border: none;
+  }
+
+
+  .search-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .search input {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    outline: none;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+  }
+  
+  .brand-column {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 20px;
+    width: 450px;
+    height: 700px;
+    overflow-y: scroll;
+  }
+  
+  .brand-column::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .brand-column::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 10px;
+  }
+  
+  .brand-logo {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .product img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .product-info {
+    display: flex;
+  }
+  
+  .product-info span {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+
+  }
+  
+  
+  .actions {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .actions button {
+    padding: 15px 30px;
+    font-weight: bold;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .actions .add {
+    background: #000;
+    color: white;
+  }
+  
+  .actions .buy {
+    background: white;
+    color: black;
+    border: 2px solid black;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 15px; /* espaço entre os botões */
+    justify-content: center; /* centraliza na tela */
+    margin-top: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 12px; /* espaço entre os botões */
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 22px; /* tamanho menor */
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Botão CADASTRAR */
+  .cadastro {
+    background-color: #fff;
+    color: #000;
+    /* sem borda */
+  }
+  
+  .cadastro:hover {
+    background-color: #f0f0f0; /* cinza claro no hover */
+  }
+  
+  /* Botão ENTRAR */
+  .entrar {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .entrar:hover {
+    background-color: #222; /* preto mais claro no hover */
+  }
+  
+  
+  
+   /* Fundo escuro do popup */
+   .overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  /* Caixa do popup */
+  .popup {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
+    position: relative;
+  }
+
+  /* Botão fechar */
+  .fechar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  /* Inputs */
+  .popup input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .popup button {
+    width: 45%;
+    padding: 10px;
+    margin: 10px 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+  .btn-entrar {
+    background: black;
+    color: white;
+  }
+
+  .btn-cadastrar {
+    background: black;
+    border: 5px solid black;
+    color: white;
+  }
+
+  .recuperar {
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .perfil-container {
+    position: relative;
+    display: inline-block;
+    left: -25px;
+}
+
+.perfil-icone {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu-perfil {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    z-index: 100;
+    min-width: 120px;
+}
+
+.menu-perfil a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-perfil a:hover {
+    background-color: #f0f0f0;
+}
+
+
+  
+ 

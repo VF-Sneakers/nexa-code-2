@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexa Sneakers - Cadastrar Tenis</title>
+  <link rel="stylesheet" href="cadastrar_tenis.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+         
+            <img src="../../img/logos/logoNEXAbranco.png" alt="Logo Nexa Sneakers">
+         
+          <nav>
+            <ul>
+              <li><a href="../inicio/home.html">🏠 Home</a></li>
+              <li><a href="#" class="active">👟 Produtos</a></li>
+              <li><a href="pedidos.html">📦 Pedidos</a></li>
+            </ul>
+          </nav>
+        </aside>
+    
+        <!-- Conteúdo -->
+        <main class="content">
+          <header class="top-bar">
+            <div>
+              <h1>Cadastrar Produtos</h1>
+              <p>Admin > Produtos > Adicionar Produto</p>
+            </div>
+          </header>
+
+    <main class="form-container">
+        <!-- Coluna esquerda -->
+        <section class="form-left">
+          <label>
+            Nome do Produto
+            <input type="text" placeholder="Nome do Tenis">
+          </label>
+    
+          <label>
+            Descrição do Produto
+            <textarea placeholder="Descritivo do Tenis"></textarea>
+          </label>
+    
+          <label>
+            Categoria
+            <input type="text" placeholder="Categoria">
+          </label>
+    
+          <label>
+            Marca
+            <input type="text" placeholder="Marca">
+          </label>
+    
+          <div class="row">
+            <label>
+              SKU
+              <input type="text" placeholder="#AD13">
+            </label>
+            <label>
+              Estoque
+              <input type="number" placeholder="Quantos tem disponivel">
+            </label>
+          </div>
+    
+          <div class="row">
+            <label>
+              Valor Regular
+              <input type="text" placeholder="Valor Regular">
+            </label>
+            <label>
+              Valor Promocional
+              <input type="text" placeholder="Valor Padrão">
+            </label>
+          </div>
+        </section>
+    
+        <!-- Coluna direita -->
+        <section class="form-right">
+          <div class="preview">
+            <img src="tenis.png" alt="Preview Produto">
+          </div>
+    
+          <div class="upload-box">
+            <p>📷</p>
+            <p>Adicione sua imagem aqui, ou navegue<br><small>JPEG, PNG são permitidos</small></p>
+          </div>
+    
+          <div class="actions">
+            <button class="btn-cadastrar">CADASTRAR</button>
+            <button class="btn-cancelar" onclick="window.location.href='dashboard_home.html'">CANCELAR</button>
+
+            
+          </div>
+        </section>
+      </main>
+</body>
+</html>

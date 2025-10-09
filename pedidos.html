@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexa Sneakers - Pedidos</title>
+  <link rel="stylesheet" href="pedidos.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <img src="../../img/logos/logoNEXAbranco.png" alt="Logo Nexa Sneakers">
+          <nav>
+            <ul>
+              <li><a href="../../pages/inicio/home.html">🏠 Home</a></li>
+              <li><a href="dashboard_home.html">👟 Produtos</a></li>
+              <li><a href="pedidos.html" class="active">📦 Pedidos</a></li>
+            </ul>
+          </nav>
+        </aside>
+    
+        <!-- Conteúdo -->
+        <main class="content">
+          <header class="top-bar">
+            <div>
+              <h1>Todos os Pedidos</h1>
+              <p>Admin > Produtos > Pedidos</p>
+            </div>
+          </header>
+
+          <main class="container2">
+            <!-- Header -->
+            <header class="top-bar">
+              
+              <div class="top-actions">
+                <span class="date">📅 Agosto, 2025</span>
+                <select class="status-filter">
+                  <option>Status Pedido</option>
+                  <option value="confirmado">Confirmado</option>
+                  <option value="cancelado">Cancelado</option>
+                  <option value="pendente">Pendente</option>
+                </select>
+              </div>
+            </header>
+        
+            <!-- Tabela -->
+            <section class="card">
+              <h2>Pedidos Recentes</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th><input type="checkbox"></th>
+                    <th>Produto</th>
+                    <th>Ordem ID</th>
+                    <th>Data</th>
+                    <th>Método Pagamento</th>
+                    <th>Nome Cliente</th>
+                    <th>Status</th>
+                    <th>Valor</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Adidas Ultra boost</td>
+                    <td>#25421</td>
+                    <td>Jan 8th, 2022</td>
+                    <td>PayPal</td>
+                    <td> Wanessa Silva</td> <!-- Nome do cliente -->
+                    <td><span class="status confirmado">● Confirmado</span></td>
+                    <td>R$200.00</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Adidas Ultra boost</td>
+                    <td>#25421</td>
+                    <td>Jan 8th, 2022</td>
+                    <td>Pioneer</td>
+                    <td>Rafael Oliveira</td>  <!-- Nome do cliente -->
+                    <td><span class="status cancelado">● Cancelado</span></td>
+                    <td>R$200.00</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Adidas Ultra boost</td>
+                    <td>#25421</td>
+                    <td>Jan 8th, 2022</td>
+                    <td>Cash</td>
+                    <td>Vinicius</td>   <!-- Nome do cliente -->
+                    <td><span class="status confirmado">● Confirmado</span></td>
+                    <td>R$200.00</td>
+                  </tr>
+                </tbody>
+              </table>
+        
+              <!-- Paginação -->
+              <div class="pagination">
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <span>...</span>
+                <button>10</button>
+                <button class="next">PRÓXIMO &rsaquo;</button>
+              </div>
+            </section>
+          </main>
+</body>
+</html>

@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .left-side {
+    flex: 1;
+    position: relative;
+    background-image: url("../../imagens/cadastro.png");
+    background-repeat: no-repeat;
+    background-size: 70vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .left-side img.sneaker {
+    max-width: 80%;
+    max-height: 80%;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  .logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Arial Black', Arial, sans-serif;
+    user-select: none;
+  }
+
+  .logo svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+  }
+
+  .logo .text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+
+  .logo .text span:first-child {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  .logo .text span:last-child {
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+
+  .right-side {
+    flex: 1;
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    color: #000;
+  }
+
+  .right-side h2 {
+    margin: 0 0 30px 0;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="password"]:focus {
+    border-color: #555;
+  }
+
+  button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background: #333;
+  }
+
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .footer::before,
+  .footer::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #ccc;
+  }
+
+  .footer::before {
+    left: 0;
+  }
+
+  .footer::after {
+    right: 0;
+  }
+
+  .social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    width: 36px;
+    height: 36px;
+    background: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background: #555;
+  }
+  
+  .social-icons a img {
+    width: 18px;   /* Ajuste o tamanho da imagem */
+    height: 18px;
+    object-fit: contain;
+  }
+  
+  
+
+  
+
+  

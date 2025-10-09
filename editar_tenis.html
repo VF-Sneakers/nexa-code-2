@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexa Sneakers - Editar Tenis</title>
+  <link rel="stylesheet" href="editar_tenis.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+        
+            <img src="../../img/logos/logoNEXAbranco.png" alt="Logo Nexa Sneakers">
+         
+          <nav>
+            <ul>
+              <li><a href="../inicio/home.html">🏠 Home</a></li>
+              <li><a href="dashboard_home.html" >👟 Produtos</a></li>
+              <li><a href="pedidos.html">📦 Pedidos</a></li>
+            </ul>
+          </nav>
+        </aside>
+    
+        <!-- Conteúdo -->
+        <main class="content">
+          <header class="top-bar">
+            <div>
+              <h1>Editar Produtos</h1>
+              <p>Admin > Produtos > Editar Produto</p>
+            </div>
+          </header>
+
+    <main class="form-container">
+        <!-- Coluna esquerda -->
+        <section class="form-left">
+          <label>
+            Nome do Produto
+            <input type="text" placeholder="Adidas Ultra boost">
+          </label>
+    
+          <label>
+            Descrição do Produto
+            <textarea placeholder="Long distance running requires a lot from athletes."></textarea>
+          </label>
+    
+          <label>
+            Categoria
+            <input type="text" placeholder="Tênis Esportivo">
+          </label>
+    
+          <label>
+            Marca
+            <input type="text" placeholder="Adidas">
+          </label>
+    
+          <div class="row">
+            <label>
+              SKU
+              <input type="text" placeholder="#AD13">
+            </label>
+            <label>
+              Estoque
+              <input type="number" placeholder="21">
+            </label>
+          </div>
+    
+          <div class="row">
+            <label>
+              Valor Regular
+              <input type="text" placeholder="R$ 450,00">
+            </label>
+            <label>
+              Valor Promocional
+              <input type="text" placeholder="R$ 259,99">
+            </label>
+          </div>
+        </section>
+    
+        <!-- Coluna direita -->
+        <section class="form-right">
+          <div class="preview">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/396330/03/fnd/BRA/w/1000/h/1000/fmt/png" alt="Preview Produto">
+          </div>
+    
+          <div class="upload-box">
+            <p>📷</p>
+            <p>Adicione sua imagem aqui, ou navegue<br><small>JPEG, PNG são permitidos</small></p>
+          </div>
+    
+          <div class="actions">
+            <button class="btn-editar" onclick="window.location.href='dashboard_home.html'">SALVAR</button>
+            <button class="btn-cancelar">DELETAR</button>
+            
+
+            
+          </div>
+        </section>
+      </main>
+</body>
+</html>

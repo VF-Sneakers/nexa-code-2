@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexa Sneakers - Dashboard</title>
+  <link rel="stylesheet" href="dashboard_home.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="../../img/logos/logoNEXAbranco.png" alt="Logo Nexa Sneakers">
+      <nav>
+        <ul>
+          <li><a href="../../pages/inicio/home.html">🏠 Home</a></li>
+          <li><a href="#" class="active">👟 Produtos</a></li>
+          <li><a href="../admin/pedidos.html">📦 Pedidos</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo -->
+    <main class="content">
+      <header class="top-bar">
+        <div>
+          <h1>Todos os Produtos</h1>
+          <p>Admin > Produtos > Todos os Produtos</p>
+        </div>
+        <button class="btn-add " onclick="window.location.href='cadastrar_tenis.html'">+ Add Novo Produto</button>
+      </header>
+
+      <!-- Grid de Produtos -->
+      <section class="products-grid">
+        <!-- Card Produto -->
+        <div class="card" onclick="window.location.href='editar_tenis.html'">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/396330/03/fnd/BRA/w/1000/h/1000/fmt/png" alt="Adidas Ultra Boost">
+          <h3>Adidas Ultra boost</h3>
+          <span class="tag">Sneaker</span>
+          <p class="price">R$400</p>
+          <p class="desc">Descrição do Produto <br>Long distance running requires a lot from athletes.</p>
+          <div class="stats">
+            <div><strong>Vendas</strong><span>1269</span></div>
+            <div><strong>Estoque</strong><span>1269</span></div>
+          </div>
+        </div>
+
+        <!-- Copiar e colar os cards para outros produtos -->
+        <div class="card" onclick="window.location.href='editar_tenis.html'">
+          <img src="https://cdn.awsli.com.br/2498/2498396/produto/207102985/mp0000067132_01-ssygxc.jpg" alt="Adidas Ultra Boost">
+          <h3>Adidas Ultra boost</h3>
+          <span class="tag">Sneaker</span>
+          <p class="price">R$800.40</p>
+          <p class="desc">Descrição do Produto <br>Long distance running requires a lot from athletes.</p>
+          <div class="stats">
+            <div><strong>Vendas</strong><span>1269</span></div>
+            <div><strong>Estoque</strong><span>1269</span></div>
+          </div>
+        </div>
+
+        
+
+        <!-- Adicione mais cards aqui -->
+      </section>
+    </main>
+  </div>
+</body>
+</html>
