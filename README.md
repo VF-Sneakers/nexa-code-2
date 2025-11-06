@@ -29,7 +29,7 @@ A página inicial é o ponto de entrada do usuário e apresenta:
 Cada botão direciona para sua respectiva página de produtos.
 
 
-<p>Página inicial</p>
+## Página Cadastro
 <img width="1902" height="949" alt="Captura de tela 2025-11-06 095622" src="https://github.com/user-attachments/assets/c944b6c7-cb35-4987-a4a5-f0f37ccb1b6f" />
 
 <p>Página inicial</p>
