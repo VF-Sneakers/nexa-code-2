@@ -2,32 +2,33 @@
 
 <p>Página inicial</p>
 <img width="1907" height="924" alt="image" src="https://github.com/user-attachments/assets/c8b11879-06a2-4d34-83bc-b8562bd65199" />
-<p>A página inicial é o ponto de entrada do usuário e apresenta:
+# Página Inicial - Nexa Sneakers
 
-Logo no canto superior esquerdo representando a marca "Nexa Sneakers".
+A página inicial é o ponto de entrada do usuário e apresenta:
 
-Header com dois botões na lateral direita:
+## Logo
+- Localizado no canto superior esquerdo
+- Representa a marca **Nexa Sneakers**
 
-Cadastre-se: redireciona para uma página de cadastro com os seguintes campos:
+## Header (Cabeçalho)
+- Dois botões no canto superior direito:
+  - **Cadastre-se**: redireciona para uma página de cadastro com os campos:
+    - Nome
+    - E-mail
+    - Telefone
+    - Senha
+    - Endereço
+  - **Login**: abre um pop-up com os campos:
+    - E-mail
+    - Senha
 
-Nome
-E-mail
-Telefone
-Senha
-Endereço
+## Botões Centrais
+- Três botões destacados no centro da página:
+  - **Masculino**
+  - **Feminino**
+  - **Infantil**
 
-Login: abre um pop-up para o usuário inserir:
-
-E-mail
-Senha
-
-Três botões centrais destacados:
-
-Masculino
-Feminino
-Infantil 
-
-Cada botão direciona para sua respectiva página de produtos.</p>
+Cada botão direciona para sua respectiva página de produtos.
 
 
 <p>Página inicial</p>
