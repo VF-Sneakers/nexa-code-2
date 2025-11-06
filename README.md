@@ -1,6 +1,6 @@
 # Nexa Sneakers - SITE
 
-<p>Página inicial</p>
+## Página Inicial (Home)
 <img width="1907" height="924" alt="image" src="https://github.com/user-attachments/assets/c8b11879-06a2-4d34-83bc-b8562bd65199" />
 A página inicial é o ponto de entrada do usuário e apresenta:
 
