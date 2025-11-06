@@ -32,6 +32,7 @@ Cada botão direciona para sua respectiva página de produtos.
 ## Página Cadastro
 <img width="1902" height="949" alt="Captura de tela 2025-11-06 095622" src="https://github.com/user-attachments/assets/c944b6c7-cb35-4987-a4a5-f0f37ccb1b6f" />
 Permitir que novos usuários criem uma conta na plataforma para realizar compras, salvar produtos e acessar funcionalidades exclusivas.
+
 ## Formulário de Cadastro
 
 Localizado no centro ou lado direito da página, com o título **"Junte-se a nós"**.
