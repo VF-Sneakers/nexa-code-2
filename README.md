@@ -11,3 +11,6 @@
 
 <p>Tela de Perfil - Gerenciamento de dados</p>
 <img width="1903" height="923" alt="image" src="https://github.com/user-attachments/assets/0034a3eb-ce5b-4c4b-920e-ad14c25436a3" />
+
+<p>Página inicial</p>
+<img width="1906" height="922" alt="image" src="https://github.com/user-attachments/assets/e0b3b4f4-5e44-416a-a8ac-1c0d5613cf3e" />
