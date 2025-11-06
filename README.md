@@ -59,19 +59,15 @@ Localizado no centro ou lado direito da página, com o título **"Junte-se a nó
 
 Logo abaixo do formulário, uma seção chamada **"Nossas Redes"** com ícones clicáveis para:
 
-- [Facebook](#)
-- [Twitter](#)
-- [Instagram](#)
-- YouTube
-
-> Os ícones devemr os respectivos perfis da marca em uma nova aba.
-
----
+- [Facebook]
+- [Twitter]
+- [Instagram]
+- [YouTube]
 
 ## Funcionalidades adicionais
 
 - **Validação de campos em tempo real**
-- **Mensagens de erro amigáveis** (ex: “E-mail inválido”)
+- **Mensagens de erro amigáveis** (ex: “Inclua um "@" no endereço de e-mail”)
 - **Confirmação visual após o cadastro** (ex: “Conta criada com sucesso!”)
 
 
