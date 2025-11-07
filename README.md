@@ -101,8 +101,55 @@ Frase abaixo dos botões:
 - **Validação de campos em tempo real**
 
 
-<p>Tela de Perfil - Gerenciamento de dados</p>
+
 <img width="1903" height="923" alt="image" src="https://github.com/user-attachments/assets/0034a3eb-ce5b-4c4b-920e-ad14c25436a3" />
+## Cabeçalho (Header)
+
+Mantém o mesmo layout da página **Home**, com os seguintes elementos:
+
+### Logo
+- Localizado no canto superior esquerdo
+- Representa a marca **Nexa Sneakers**
+
+### Botões Centrais
+- **Masculino**
+- **Feminino**
+- **Infantil**
+
+Cada botão redireciona para sua respectiva página de produtos.
+
+### Botões à Direita
+- **Cadastre-se**: redireciona para a página de cadastro
+- **Login**: abre um pop-up para autenticação com campos de **E-mail** e **Senha**
+
+## Catálogo de Tênis Masculinos
+
+A página apresenta os produtos organizados em **três fileiras**, cada uma contendo **três tênis**, totalizando **nove modelos**.
+
+### Cada tênis exibe:
+- **Imagem do produto**
+- **Nome completo**
+- **Preço em reais (R$)**
+- Estilo visual **limpo e responsivo**
+
+
+## Interatividade
+
+Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Seleção de Tênis"**, onde poderá visualizar:
+
+- **Descrição detalhada**
+- **Tamanhos disponíveis**
+- Botão **Comprar**
+- Botão **"Adicionar ao Carrinho"**
+
+
+## Design e Usabilidade
+
+- Layout dividido por **marcas** (ex: Nike, Adidas, Puma)
+- Navegação **fluida e intuitiva**
+
+
+
 
 <p>Página inicial</p>
 <img width="1872" height="919" alt="image" src="https://github.com/user-attachments/assets/23000c6f-6b7c-48e2-8f5e-e53c1f1a31a3" />
