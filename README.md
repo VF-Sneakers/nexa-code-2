@@ -103,9 +103,12 @@ Frase abaixo dos botões:
 
 
 <img width="1903" height="923" alt="image" src="https://github.com/user-attachments/assets/0034a3eb-ce5b-4c4b-920e-ad14c25436a3" />
-## Cabeçalho (Header)
 
-Mantém o mesmo layout da página **Home**, com os seguintes elementos:
+
+
+<img width="1872" height="919" alt="image" src="https://github.com/user-attachments/assets/23000c6f-6b7c-48e2-8f5e-e53c1f1a31a3" />
+
+Mantém o mesmo cabeçalho da página **Home**, com os seguintes elementos:
 
 ### Logo
 - Localizado no canto superior esquerdo
@@ -149,10 +152,6 @@ Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Sele
 - Navegação **fluida e intuitiva**
 
 
-
-
-<p>Página inicial</p>
-<img width="1872" height="919" alt="image" src="https://github.com/user-attachments/assets/23000c6f-6b7c-48e2-8f5e-e53c1f1a31a3" />
 
 
 
