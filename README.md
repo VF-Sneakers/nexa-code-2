@@ -78,7 +78,7 @@ Ao clicar no botão **"Entrar"** localizado no cabeçalho da página **Home**, s
 
 ### Estrutura do Pop-up
 
-#### 🧾 Formulário de Login
+#### Formulário de Login
 Campos obrigatórios:
 - **E-mail**
 - **Senha**
