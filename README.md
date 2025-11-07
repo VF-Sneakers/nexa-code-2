@@ -73,11 +73,8 @@ Logo abaixo do formulário, uma seção chamada **"Nossas Redes"** com ícones c
 
 ## PopUp Login
 <img width="1906" height="922" alt="image" src="https://github.com/user-attachments/assets/e0b3b4f4-5e44-416a-a8ac-1c0d5613cf3e" />
-## Pop-up de Login
 
 Ao clicar no botão **"Login"** localizado no cabeçalho da página **Home**, será exibido um **pop-up centralizado** com o formulário de autenticação.
-
----
 
 ### Estrutura do Pop-up
 
@@ -86,14 +83,10 @@ Campos obrigatórios:
 - **E-mail**
 - **Senha**
 
----
-
 ### Botões de Ação
 
 - **Entrar** – botão principal para autenticar o usuário e redirecioná-lo à **Página Inicial logada**.
 - **Criar conta** – botão secundário que redireciona o usuário à página **"Cadastre-se"** caso ainda não tenha uma conta.
-
----
 
 ### Recuperação de Senha
 
@@ -102,8 +95,6 @@ Frase abaixo dos botões:
 
 - Ao clicar, o usuário é redirecionado para uma nova tela de recuperação de senha.
 - Essa tela solicita o **e-mail cadastrado** e envia um **link de redefinição** para o e-mail do usuário.
-
----
 
 ### Funcionalidades Adicionais
 
