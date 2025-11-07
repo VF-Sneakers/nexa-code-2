@@ -142,7 +142,7 @@ Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Sele
 
 - **Descrição detalhada**
 - **Tamanhos disponíveis**
-- Botão **Comprar**
+- Botão **"Comprar"**
 - Botão **"Adicionar ao Carrinho"**
 
 
