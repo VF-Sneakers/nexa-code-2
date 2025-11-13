@@ -157,6 +157,14 @@ Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Sele
 <img width="1896" height="932" alt="image" src="https://github.com/user-attachments/assets/20064c04-1a69-46db-b611-4b8f1160355a" />
 
 
+<img width="1863" height="923" alt="image" src="https://github.com/user-attachments/assets/218b0224-d88a-47a5-be17-b34ac21a4991" />
+
+<img width="1840" height="914" alt="image" src="https://github.com/user-attachments/assets/a061daa5-325b-47bf-a502-e920588c45b0" />
+
+<img width="1876" height="932" alt="image" src="https://github.com/user-attachments/assets/55607ed2-d8f3-4d54-b27a-2f0221b106b6" />
+
+<img width="1845" height="918" alt="image" src="https://github.com/user-attachments/assets/a46705ca-5fa2-46d7-ae82-81d29fac1f67" />
+
 
 
 
