@@ -146,6 +146,20 @@ Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Sele
 - Botão **"Adicionar ao Carrinho"**
 
 
+<img width="1899" height="919" alt="image" src="https://github.com/user-attachments/assets/7be46299-a4aa-472f-b60b-4e6684a32b2d" />
+
+
+<img width="1895" height="929" alt="image" src="https://github.com/user-attachments/assets/5332e3b1-37c9-4cc9-8049-f44f715db1eb" />
+
+
+<img width="1894" height="936" alt="image" src="https://github.com/user-attachments/assets/1218cf2d-876c-4003-873d-c580a4406178" />
+
+<img width="1896" height="932" alt="image" src="https://github.com/user-attachments/assets/20064c04-1a69-46db-b611-4b8f1160355a" />
+
+
+
+
+
 ## Design e Usabilidade
 
 - Layout dividido por **marcas** (ex: Nike, Adidas, Puma)
