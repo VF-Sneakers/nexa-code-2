@@ -102,10 +102,6 @@ Frase abaixo dos botões:
 
 
 
-<img width="1903" height="923" alt="image" src="https://github.com/user-attachments/assets/0034a3eb-ce5b-4c4b-920e-ad14c25436a3" />
-
-
-
 <img width="1872" height="919" alt="image" src="https://github.com/user-attachments/assets/23000c6f-6b7c-48e2-8f5e-e53c1f1a31a3" />
 
 Mantém o mesmo cabeçalho da página **Home**, com os seguintes elementos:
@@ -146,7 +142,10 @@ Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Sele
 - Botão **"Adicionar ao Carrinho"**
 
 # Tela — Meu Perfil
-<img width="1899" height="919" alt="image" src="https://github.com/user-attachments/assets/7be46299-a4aa-472f-b60b-4e6684a32b2d" />
+
+<img width="1903" height="923" alt="image" src="https://github.com/user-attachments/assets/0034a3eb-ce5b-4c4b-920e-ad14c25436a3" />
+
+
 
 ## Visão Geral
 A tela **Meu Perfil** permite que o usuário visualize, edite e gerencie suas informações pessoais.  
@@ -236,6 +235,7 @@ O acesso é feito pelo ícone de perfil localizado no cabeçalho da página.
 
 
 
+<img width="1899" height="919" alt="image" src="https://github.com/user-attachments/assets/7be46299-a4aa-472f-b60b-4e6684a32b2d" />
 
 
 <img width="1895" height="929" alt="image" src="https://github.com/user-attachments/assets/5332e3b1-37c9-4cc9-8049-f44f715db1eb" />
