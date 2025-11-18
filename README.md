@@ -6,7 +6,7 @@
 A Página Inicial (Home) é o ponto de entrada do usuário no sistema e apresenta a identidade visual da marca, categorias principais de navegação e acesso às telas de autenticação e cadastro.
 
 
-## ** Requisitos Funcionais (RF)**
+## Requisitos Funcionais (RF)
 
 ### **RF — Identidade Visual**
 
@@ -36,7 +36,7 @@ O cabeçalho deve disponibilizar:
 
 Cada botão deve direcionar para sua respectiva página de produtos.
 
-### **RF — Destaque das Categorias**
+### RF — Destaque das Categorias
 
 A área central da Home deve exibir três seções visuais destacadas, cada uma representando:
 
@@ -46,7 +46,7 @@ A área central da Home deve exibir três seções visuais destacadas, cada uma 
 
 Cada área deve atuar como botão clicável para sua categoria.
 
-### **RF — Redirecionamentos**
+### RF — Redirecionamentos
 
 Todos os elementos interativos devem executar navegação para suas páginas responsáveis:
 
@@ -54,31 +54,31 @@ Todos os elementos interativos devem executar navegação para suas páginas res
 * Cadastre-se → tela de cadastro
 * Entrar → tela de autenticação/login
 
-## ** Requisitos Não Funcionais (RNF)**
+## Requisitos Não Funcionais (RNF)
 
-### **RNF — Usabilidade**
+### RNF — Usabilidade
 
 * Interface simples e intuitiva
 * Ícones e textos claros
 * Elementos visuais com boa legibilidade
 
-### **RNF — Responsividade**
+### RNF — Responsividade
 
 * Layout adaptável a diferentes resoluções
 * Adequado para desktop, tablets e dispositivos mobile
 
-### **RNF — Desempenho**
+### RNF — Desempenho
 
 * Imagens otimizadas para garantir carregamento rápido
 * Navegação fluida sem travamentos
 
-### **RNF — Acessibilidade**
+### **RNF — Acessibilidade
 
 * Contraste adequado entre elementos
 * Textos alternativos quando necessário
 * Navegação facilitada para leitores de tela e teclado
 
-### **RNF — Coerência Visual**
+### RNF — Coerência Visual
 
 * Manter padrões de cores, fontes e espaçamentos definidos pela identidade da marca
 * Transições suaves e consistentes entre seções
