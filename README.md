@@ -8,14 +8,14 @@ A Página Inicial (Home) é o ponto de entrada do usuário no sistema e apresent
 
 ## Requisitos Funcionais (RF)
 
-### **RF — Identidade Visual**
+### RF — Identidade Visual
 
 A Home deve exibir:
 
 * A logo **Nexa Sneakers** no canto superior esquerdo.
 * Imagens principais destacando modelos de tênis.
 
-### **RF — Navegação**
+### RF — Navegação
 
 O cabeçalho deve disponibilizar:
 
