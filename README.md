@@ -5,9 +5,8 @@
 
 A Página Inicial (Home) é o ponto de entrada do usuário no sistema e apresenta a identidade visual da marca, categorias principais de navegação e acesso às telas de autenticação e cadastro.
 
----
 
-# ## **2. Requisitos Funcionais (RF)**
+## **2. Requisitos Funcionais (RF)**
 
 ### **RF — Identidade Visual**
 
@@ -55,9 +54,7 @@ Todos os elementos interativos devem executar navegação para suas páginas res
 * Cadastre-se → tela de cadastro
 * Entrar → tela de autenticação/login
 
----
-
-### **3. Requisitos Não Funcionais (RNF)**
+## **3. Requisitos Não Funcionais (RNF)**
 
 ### **RNF — Usabilidade**
 
@@ -86,6 +83,7 @@ Todos os elementos interativos devem executar navegação para suas páginas res
 * Manter padrões de cores, fontes e espaçamentos definidos pela identidade da marca
 * Transições suaves e consistentes entre seções
 
+---
 
 ## PopUp Login
 <img width="1906" height="922" alt="image" src="https://github.com/user-attachments/assets/e0b3b4f4-5e44-416a-a8ac-1c0d5613cf3e" />
