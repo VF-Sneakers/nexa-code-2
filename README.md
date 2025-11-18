@@ -145,13 +145,9 @@ Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Sele
 
 <img width="1903" height="923" alt="image" src="https://github.com/user-attachments/assets/0034a3eb-ce5b-4c4b-920e-ad14c25436a3" />
 
-
-
-## Visão Geral
 A tela **Meu Perfil** permite que o usuário visualize, edite e gerencie suas informações pessoais.  
 O acesso é feito pelo ícone de perfil localizado no cabeçalho da página.
 
----
 
 ## Requisitos Funcionais (RF)
 
@@ -201,7 +197,6 @@ O acesso é feito pelo ícone de perfil localizado no cabeçalho da página.
 ### Acesso via Ícone de Perfil
 - O ícone de usuário no canto superior direito deve abrir a tela **Meu Perfil**.  
 
----
 
 ## Requisitos Não Funcionais (RNF)
 
