@@ -182,7 +182,7 @@ O acesso é feito pelo ícone de perfil localizado no cabeçalho da página.
 - O botão **Deletar Conta** deve:
   - Abrir um pop-up de confirmação  
   - Excluir os dados do usuário após confirmação  
-  - Redirecionar para uma página adequada (home ou login)  
+  - Redirecionar para uma página adequada (home)  
 
 ### Avatar de Perfil
 - A tela deve mostrar um ícone de avatar padrão acima do formulário.  
