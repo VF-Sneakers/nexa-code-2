@@ -57,7 +57,7 @@ Todos os elementos interativos devem executar navegação para suas páginas res
 
 ---
 
-# ## **3. Requisitos Não Funcionais (RNF)**
+### **3. Requisitos Não Funcionais (RNF)**
 
 ### **RNF — Usabilidade**
 
