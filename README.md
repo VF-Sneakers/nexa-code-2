@@ -145,8 +145,97 @@ Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Sele
 - Botão **"Comprar"**
 - Botão **"Adicionar ao Carrinho"**
 
-
+# Tela — Meu Perfil
 <img width="1899" height="919" alt="image" src="https://github.com/user-attachments/assets/7be46299-a4aa-472f-b60b-4e6684a32b2d" />
+
+## Visão Geral
+A tela **Meu Perfil** permite que o usuário visualize, edite e gerencie suas informações pessoais.  
+O acesso é feito pelo ícone de perfil localizado no cabeçalho da página.
+
+---
+
+## Requisitos Funcionais (RF)
+
+### Exibição das Informações do Usuário
+- A tela deve carregar e exibir automaticamente os dados do usuário:
+  - Nome  
+  - E-mail  
+  - Telefone  
+  - Endereço  
+
+### Edição dos Dados
+- O usuário deve poder editar qualquer um dos campos do formulário:
+  - Nome  
+  - E-mail  
+  - Telefone  
+  - Endereço  
+
+### Validação de Campos em Tempo Real
+- Os campos devem ser validados enquanto o usuário digita:
+  - Verificação de e-mail válido  
+  - Telefone somente com números  
+  - Campos obrigatórios não podem ficar vazios  
+  - Erros devem ser indicados com feedback visual  
+
+### Salvar Alterações
+- Ao clicar no botão **Salvar**, o sistema deve:
+  - Validar todos os campos  
+  - Registrar as alterações  
+  - Exibir mensagem de sucesso ou erro  
+
+### Deletar Conta
+- O botão **Deletar Conta** deve:
+  - Abrir um pop-up de confirmação  
+  - Excluir os dados do usuário após confirmação  
+  - Redirecionar para uma página adequada (home ou login)  
+
+### Avatar de Perfil
+- A tela deve mostrar um ícone de avatar padrão acima do formulário.  
+
+### Menu Superior
+- Os botões no cabeçalho:
+  - Masculino  
+  - Feminino  
+  - Infantil  
+- Devem redirecionar para suas páginas de categoria.  
+
+### Acesso via Ícone de Perfil
+- O ícone de usuário no canto superior direito deve abrir a tela **Meu Perfil**.  
+
+---
+
+## Requisitos Não Funcionais (RNF)
+
+### Usabilidade
+- A interface deve ser intuitiva, organizada e fácil de usar.  
+
+### Acessibilidade
+- A interface deve garantir:
+  - Labels associados aos inputs  
+  - Boa leitura  
+  - Contraste adequado  
+  - Botões acessíveis  
+
+### Segurança
+- Dados sensíveis não devem ser exibidos em logs.  
+- Exclusão de conta deve remover completamente as informações.  
+- Caso armazenamento local seja usado, deve ser indicado como recurso didático.  
+
+### Padrão Visual
+- A tela deve seguir o estilo geral do projeto:
+  - Fundo suave  
+  - Borda arredondada  
+  - Botão principal preto  
+  - Botão de exclusão vermelho  
+
+### Feedback ao Usuário
+- O sistema deve fornecer mensagens claras para:
+  - Sucesso  
+  - Erros de validação  
+  - Confirmação de exclusão  
+
+
+
 
 
 <img width="1895" height="929" alt="image" src="https://github.com/user-attachments/assets/5332e3b1-37c9-4cc9-8049-f44f715db1eb" />
