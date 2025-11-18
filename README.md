@@ -20,15 +20,15 @@ A Home deve exibir:
 
 O cabeçalho deve disponibilizar:
 
-* Botão **Cadastre-se**, que redireciona para a tela de cadastro com os campos:*
-* - Nome
+* Botão **Cadastre-se**, que redireciona para a tela de cadastro com os campos:
+ - Nome
   - E-mail
   - Telefone
   - Senha
-  - Endereço *
+  - Endereço 
 * Botão **Entrar**, que abre a tela responsável pela autenticação.
-  *- E-mail
-  - Senha*
+  - E-mail
+  - Senha
 * Botões superiores de categoria:
 
   * Masculino
