@@ -21,7 +21,7 @@ A Home deve exibir:
 O cabeçalho deve disponibilizar:
 
 * Botão **Cadastre-se**, que redireciona para a tela de cadastro com os campos:
- - Nome
+  - Nome
   - E-mail
   - Telefone
   - Senha
