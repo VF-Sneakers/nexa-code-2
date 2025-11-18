@@ -2,73 +2,89 @@
 
 ## Página Inicial (Home)
 <img width="1907" height="924" alt="image" src="https://github.com/user-attachments/assets/c8b11879-06a2-4d34-83bc-b8562bd65199" />
-A página inicial é o ponto de entrada do usuário e apresenta:
 
-## Logo
-- Localizado no canto superior esquerdo
-- Representa a marca **Nexa Sneakers**
-
-## Header (Cabeçalho)
-- Dois botões no canto superior direito:
-  - **Cadastre-se**: redireciona para uma página de cadastro com os campos:
-    - Nome
-    - E-mail
-    - Telefone
-    - Senha
-    - Endereço
-  - **Login**: abre um pop-up com os campos:
-    - E-mail
-    - Senha
-
-## Botões Centrais
-- Três botões destacados no centro da página:
-  - **Masculino**
-  - **Feminino**
-  - **Infantil**
-
-Cada botão direciona para sua respectiva página de produtos.
-
-
-## Página Cadastro
-<img width="1902" height="949" alt="Captura de tela 2025-11-06 095622" src="https://github.com/user-attachments/assets/c944b6c7-cb35-4987-a4a5-f0f37ccb1b6f" />
-Permitir que novos usuários criem uma conta na plataforma para realizar compras, salvar produtos e acessar funcionalidades exclusivas.
-
-## Formulário de Cadastro
-
-Localizado no centro ou lado direito da página, com o título **"Junte-se a nós"**.
-
-### Campos obrigatórios:
-- **Nome**
-- **E-mail**
-- **Telefone**
-- **Senha** 
-- **Endereço**:
-(um campo único ou dividido em:
-    - Rua
-    - Número
-    - Cidade
-    - Estado
-    - CEP)
-
-### Botão de ação:
-- **CRIAR CONTA** – botão destacado em preto ou na cor de destaque da marca.
+A Página Inicial (Home) é o ponto de entrada do usuário no sistema e apresenta a identidade visual da marca, categorias principais de navegação e acesso às telas de autenticação e cadastro.
 
 ---
 
-## Redes Sociais
+# ## **2. Requisitos Funcionais (RF)**
 
-Logo abaixo do formulário, uma seção chamada **"Nossas Redes"** com ícones clicáveis para:
+### **RF — Identidade Visual**
 
-- [Facebook]
-- [Twitter]
-- [Instagram]
-- [YouTube]
+A Home deve exibir:
 
-## Funcionalidades adicionais
+* A logo **Nexa Sneakers** no canto superior esquerdo.
+* Imagens principais destacando modelos de tênis.
 
-- **Validação de campos em tempo real**
-- **Mensagens de erro amigáveis** (ex: “Inclua um "@" no endereço de e-mail”)
-- **Confirmação visual após o cadastro** (ex: “Conta criada com sucesso!”)
+### **RF — Navegação**
+
+O cabeçalho deve disponibilizar:
+
+* Botão **Cadastre-se**, que redireciona para a tela de cadastro com os campos:*
+* - Nome
+  - E-mail
+  - Telefone
+  - Senha
+  - Endereço *
+* Botão **Entrar**, que abre a tela responsável pela autenticação.
+  *- E-mail
+  - Senha*
+* Botões superiores de categoria:
+
+  * Masculino
+  * Feminino
+  * Infantil
+
+Cada botão deve direcionar para sua respectiva página de produtos.
+
+### **RF — Destaque das Categorias**
+
+A área central da Home deve exibir três seções visuais destacadas, cada uma representando:
+
+* Masculino
+* Feminino
+* Infantil
+
+Cada área deve atuar como botão clicável para sua categoria.
+
+### **RF — Redirecionamentos**
+
+Todos os elementos interativos devem executar navegação para suas páginas responsáveis:
+
+* Categorias → lista de produtos
+* Cadastre-se → tela de cadastro
+* Entrar → tela de autenticação/login
+
+---
+
+# ## **3. Requisitos Não Funcionais (RNF)**
+
+### **RNF — Usabilidade**
+
+* Interface simples e intuitiva
+* Ícones e textos claros
+* Elementos visuais com boa legibilidade
+
+### **RNF — Responsividade**
+
+* Layout adaptável a diferentes resoluções
+* Adequado para desktop, tablets e dispositivos mobile
+
+### **RNF — Desempenho**
+
+* Imagens otimizadas para garantir carregamento rápido
+* Navegação fluida sem travamentos
+
+### **RNF — Acessibilidade**
+
+* Contraste adequado entre elementos
+* Textos alternativos quando necessário
+* Navegação facilitada para leitores de tela e teclado
+
+### **RNF — Coerência Visual**
+
+* Manter padrões de cores, fontes e espaçamentos definidos pela identidade da marca
+* Transições suaves e consistentes entre seções
 
 
 ## PopUp Login
