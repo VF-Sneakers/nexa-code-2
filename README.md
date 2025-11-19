@@ -120,7 +120,6 @@ Ao clicar, o usuário é redirecionado para a tela de recuperação de senha.
 
 * **Validação em tempo real** dos campos do formulário
 * **Feedback visual** para dados inválidos
-* **Botão de fechar (X)** no canto superior do pop-up
 
 ## Requisitos Funcionais
 
@@ -169,7 +168,7 @@ O link deve possibilitar a criação de uma nova senha válida.
 
 ### **Fechamento do pop-up**
 
-O usuário deve conseguir fechar o pop-up clicando no **X**.
+O usuário deve conseguir fechar o pop-up clicando fora da tela **overlay**.
 
 ## Requisitos Não Funcionais
 
@@ -182,48 +181,11 @@ O usuário deve conseguir fechar o pop-up clicando no **X**.
 
 * Pop-up ajustável para desktop, tablet e mobile
 
-### **Tempo de Resposta**
-
-* Validações devem ocorrer em até **1 segundo**
-
-### **Segurança**
-
-* Comunicação via **HTTPS**
-* Armazenamento seguro de senhas com **hashing**
-* Links de redefinição com **tempo de expiração**
-* Proteção contra ataques como brute-force e SQL Injection
-
 ### **Acessibilidade**
 
 * Navegação via teclado (TAB, ENTER, ESC)
 * Contraste adequado entre texto e fundo
 * Suporte a ARIA para tecnologias assistivas
-
-### **Compatibilidade**
-
-* Pop-up deve funcionar nos navegadores:
-
-  * Chrome
-  * Edge
-  * Firefox
-  * Safari
-
-### **Disponibilidade**
-
-* Sistema disponível **24/7**, exceto em períodos de manutenção programada
-
-## Fluxo Resumido do Usuário
-
-1. Usuário clica em **Entrar**
-2. Pop-up de login aparece
-3. Usuário preenche e-mail e senha
-4. Sistema valida automaticamente
-5. Usuário escolhe:
-
-   * **Entrar** → autenticação
-   * **Criar conta** → página de cadastro
-   * **Recuperar senha** → página de recuperação
-6. Ao completar ações, o pop-up pode ser fechado pelo **X**
 
 ---
 
