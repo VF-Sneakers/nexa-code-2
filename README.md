@@ -114,7 +114,7 @@ Frase abaixo dos botões:
 
 - **Validação de campos em tempo real**
 
-
+---
 
 <img width="1872" height="919" alt="image" src="https://github.com/user-attachments/assets/23000c6f-6b7c-48e2-8f5e-e53c1f1a31a3" />
 
@@ -154,6 +154,8 @@ Ao clicar em qualquer tênis, o usuário é redirecionado para a página **"Sele
 - **Tamanhos disponíveis**
 - Botão **"Comprar"**
 - Botão **"Adicionar ao Carrinho"**
+
+---
 
 # Tela — Meu Perfil
 
