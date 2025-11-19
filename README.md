@@ -88,31 +88,142 @@ Todos os elementos interativos devem executar navegação para suas páginas res
 ## PopUp Login
 <img width="1906" height="922" alt="image" src="https://github.com/user-attachments/assets/e0b3b4f4-5e44-416a-a8ac-1c0d5613cf3e" />
 
-Ao clicar no botão **"Entrar"** localizado no cabeçalho da página **Home**, será exibido um **pop-up centralizado** com o formulário de autenticação.
+O pop-up é exibido quando o usuário clica no botão **"Entrar"** localizado no cabeçalho da página Home, apresentando o formulário de autenticação e funcionalidades associadas.
 
-### Estrutura do Pop-up
 
-#### Formulário de Login
-Campos obrigatórios:
-- **E-mail**
-- **Senha**
+## Estrutura do Pop-up
 
-### Botões de Ação
+### **Formulário de Login**
 
-- **Entrar** – botão principal para autenticar o usuário e redirecioná-lo à **Página Inicial logada**.
-- **Criar conta** – botão secundário que redireciona o usuário à página **"Cadastro"** caso ainda não tenha uma conta.
+O pop-up contém:
 
-### Recuperação de Senha
+* Campo **E-mail** (obrigatório)
+* Campo **Senha** (obrigatório)
+* Botão **Entrar** – autentica o usuário
+* Botão **Criar conta** – redireciona para a página de cadastro
 
-Frase abaixo dos botões:  
-**"Esqueceu a senha? Recuperar"**
+### **Recuperação de Senha**
 
-- Ao clicar, o usuário é redirecionado para uma nova tela de recuperação de senha.
-- Essa tela solicita o **e-mail cadastrado** e envia um **link de redefinição** para o e-mail do usuário.
+Abaixo do formulário é exibida a frase:
 
-### Funcionalidades Adicionais
+> **"Esqueceu a senha? Recuperar"**
 
-- **Validação de campos em tempo real**
+Ao clicar, o usuário é redirecionado para a tela de recuperação de senha.
+
+#### Funcionalidade da tela de recuperação:
+
+* Usuário informa o **e-mail cadastrado**
+* O sistema envia um **link de redefinição de senha**
+* O usuário define uma **nova senha** a partir do link
+
+### **Funcionalidades Extras**
+
+* **Validação em tempo real** dos campos do formulário
+* **Feedback visual** para dados inválidos
+* **Botão de fechar (X)** no canto superior do pop-up
+
+## Requisitos Funcionais
+
+### **Exibição do pop-up**
+
+O sistema deve exibir o pop-up quando o usuário clicar em **"Entrar"** no cabeçalho.
+
+### **Preenchimento dos campos**
+
+O usuário deve conseguir inserir:
+
+* E-mail
+* Senha
+
+### **Validação em tempo real**
+
+O sistema deve validar automaticamente:
+
+* Formato de e-mail
+* Campos vazios
+* Senha fora do padrão
+
+### **Autenticação**
+
+Ao clicar em **Entrar**:
+
+* As credenciais devem ser verificadas
+* O sistema deve exibir mensagens de erro quando necessário
+* Usuário deve ser redirecionado para a **Home logada** ao autenticar
+
+### **Redirecionamento para criação de conta**
+
+O botão **Criar conta** deve levar o usuário à página **Cadastro**.
+
+### **Recuperação de senha**
+
+Ao clicar em **"Recuperar"**, o usuário deve ser direcionado à página de recuperação de senha.
+
+### **Envio do link de redefinição**
+
+O sistema deve enviar um e-mail com link seguro de redefinição.
+
+### **Redefinição de senha**
+
+O link deve possibilitar a criação de uma nova senha válida.
+
+### **Fechamento do pop-up**
+
+O usuário deve conseguir fechar o pop-up clicando no **X**.
+
+## Requisitos Não Funcionais
+
+### **Usabilidade**
+
+* Interface intuitiva e fácil de usar
+* Elementos organizados e visual limpo
+
+### **Responsividade**
+
+* Pop-up ajustável para desktop, tablet e mobile
+
+### **Tempo de Resposta**
+
+* Validações devem ocorrer em até **1 segundo**
+
+### **Segurança**
+
+* Comunicação via **HTTPS**
+* Armazenamento seguro de senhas com **hashing**
+* Links de redefinição com **tempo de expiração**
+* Proteção contra ataques como brute-force e SQL Injection
+
+### **Acessibilidade**
+
+* Navegação via teclado (TAB, ENTER, ESC)
+* Contraste adequado entre texto e fundo
+* Suporte a ARIA para tecnologias assistivas
+
+### **Compatibilidade**
+
+* Pop-up deve funcionar nos navegadores:
+
+  * Chrome
+  * Edge
+  * Firefox
+  * Safari
+
+### **Disponibilidade**
+
+* Sistema disponível **24/7**, exceto em períodos de manutenção programada
+
+## Fluxo Resumido do Usuário
+
+1. Usuário clica em **Entrar**
+2. Pop-up de login aparece
+3. Usuário preenche e-mail e senha
+4. Sistema valida automaticamente
+5. Usuário escolhe:
+
+   * **Entrar** → autenticação
+   * **Criar conta** → página de cadastro
+   * **Recuperar senha** → página de recuperação
+6. Ao completar ações, o pop-up pode ser fechado pelo **X**
 
 ---
 
