@@ -392,9 +392,113 @@ Contraste adequado entre texto e fundo, facilitando leitura.
 A tela deve ser fácil de substituir ou estilizar, mantendo sua funcionalidade independente do restante do site.
 
 ---
+# Descrição da Tela – Carrinho de Compras
 
 <img width="1895" height="929" alt="image" src="https://github.com/user-attachments/assets/5332e3b1-37c9-4cc9-8049-f44f715db1eb" />
+A tela de **Carrinho de Compras** é exibida **somente após o usuário selecionar um produto e clicar no botão “Adicionar ao Carrinho”**.
 
+Nessa página, o usuário visualiza:
+
+### **1. Informações do Produto Selecionado**
+
+* Imagem do produto.
+* Nome (ex: “Tênis Adidas Superstar II Infantil”).
+* Tamanho selecionado.
+* Preço.
+
+### **2. Endereço de Entrega**
+
+* Exibe o endereço já cadastrado pelo usuário.
+* Mostra texto fixo “Endereço de entrega” e abaixo o endereço.
+
+### **3. Formas de Pagamento**
+
+* Opção de pagamento via **PIX**.
+* Opção de pagamento via **Cartão de Crédito**.
+* Seleção feita por radio button.
+
+### **4. Finalização da Compra**
+
+* Botão “Finalizar Compra”.
+
+### **Comportamento Adicional**
+
+* **Se o usuário acessar o carrinho sem ter adicionado produtos**, a tela exibe a mensagem:
+
+  * **“Não há produtos no carrinho.”**
+* O botão “Finalizar Compra” só faz sentido quando há pelo menos um item.
+
+---
+
+# Requisitos Funcionais (RF)
+
+### Exibir item adicionado ao carrinho
+
+O sistema deve exibir na tela do carrinho o produto selecionado pelo usuário, incluindo imagem, nome, tamanho e preço.
+
+### Exibir mensagem quando o carrinho estiver vazio
+
+Se o usuário acessar a página sem produtos, deve aparecer:
+
+* **“Ainda não há produtos no carrinho.”
+
+### Mostrar endereço de entrega
+
+O sistema deve exibir o endereço cadastrado do usuário abaixo da seção de itens.
+
+### Permitir escolha da forma de pagamento
+
+O usuário deve selecionar entre:
+
+* PIX
+* Cartão de Crédito
+
+### Finalizar compra
+
+Ao clicar em **“Finalizar Compra”**, o sistema deve validar:
+
+1. Se há produtos no carrinho
+2. Se uma forma de pagamento foi selecionada
+
+E prosseguir para a página de confirmação/pagamento.
+
+### Exibir valores corretamente
+
+O sistema deve mostrar o valor total do pedido (mesmo que haja apenas 1 item).
+
+---
+
+# Requisitos Não Funcionais (RNF)
+
+### Layout responsivo
+
+A tela deve adaptar-se adequadamente a diferentes tamanhos de tela (desktop, tablet e celular).
+
+### Carregamento rápido
+
+O carregamento da página deve ocorrer em até 2 segundos em condições normais.
+
+### Usabilidade
+
+Os elementos devem ser claros, legíveis e organizados para facilitar a finalização da compra.
+
+### Segurança dos dados
+
+As informações do usuário (endereço, pagamento e identificação) devem ser exibidas apenas após login e protegidas durante todo o processo.
+
+### Persistência temporária
+
+O carrinho deve manter o produto selecionado enquanto o usuário estiver navegando no site.
+
+### Feedback visual
+
+Botões e seletores devem demonstrar estados:
+
+* hover
+* selecionado
+* desabilitado (quando aplicável)
+
+---
 
 <img width="1894" height="936" alt="image" src="https://github.com/user-attachments/assets/1218cf2d-876c-4003-873d-c580a4406178" />
 
