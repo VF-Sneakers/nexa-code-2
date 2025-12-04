@@ -315,7 +315,13 @@ O acesso é feito pelo ícone de perfil localizado no cabeçalho da página.
 - O sistema deve fornecer mensagens claras para:
   - Sucesso  
   - Erros de validação  
-  - Confirmação de exclusão  
+  - Confirmação de exclusão
+    
+### Design e Usabilidade
+
+- Layout dividido por **marcas** (ex: Nike, Adidas, Puma)
+- Navegação **fluida e intuitiva**
+
 
 ---
 # Tela de Acesso
@@ -513,13 +519,6 @@ Botões e seletores devem demonstrar estados:
 
 <img width="1845" height="918" alt="image" src="https://github.com/user-attachments/assets/a46705ca-5fa2-46d7-ae82-81d29fac1f67" />
 
-
-
-
-## Design e Usabilidade
-
-- Layout dividido por **marcas** (ex: Nike, Adidas, Puma)
-- Navegação **fluida e intuitiva**
 
 
 
