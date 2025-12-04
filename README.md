@@ -506,11 +506,6 @@ Botões e seletores devem demonstrar estados:
 
 ---
 
-<img width="1894" height="936" alt="image" src="https://github.com/user-attachments/assets/1218cf2d-876c-4003-873d-c580a4406178" />
-
-<img width="1896" height="932" alt="image" src="https://github.com/user-attachments/assets/20064c04-1a69-46db-b611-4b8f1160355a" />
-
-
 <img width="1863" height="923" alt="image" src="https://github.com/user-attachments/assets/218b0224-d88a-47a5-be17-b34ac21a4991" />
 
 <img width="1840" height="914" alt="image" src="https://github.com/user-attachments/assets/a061daa5-325b-47bf-a502-e920588c45b0" />
@@ -520,6 +515,11 @@ Botões e seletores devem demonstrar estados:
 <img width="1845" height="918" alt="image" src="https://github.com/user-attachments/assets/a46705ca-5fa2-46d7-ae82-81d29fac1f67" />
 
 
+ADMIN
+
+<img width="1894" height="936" alt="image" src="https://github.com/user-attachments/assets/1218cf2d-876c-4003-873d-c580a4406178" />
+
+<img width="1896" height="932" alt="image" src="https://github.com/user-attachments/assets/20064c04-1a69-46db-b611-4b8f1160355a" />
 
 
 
