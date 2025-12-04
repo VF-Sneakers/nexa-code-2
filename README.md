@@ -317,10 +317,81 @@ O acesso é feito pelo ícone de perfil localizado no cabeçalho da página.
   - Erros de validação  
   - Confirmação de exclusão  
 
-
-
+---
+# Tela de Acesso
 <img width="1899" height="919" alt="image" src="https://github.com/user-attachments/assets/7be46299-a4aa-472f-b60b-4e6684a32b2d" />
+Essa página é exibida **automaticamente** quando o usuário clica em qualquer produto (ex.: tênis) sem estar autenticado.
+Ela funciona como uma *barreira de acesso*, garantindo que apenas usuários logados possam finalizar compras ou continuar navegando em áreas restritas.
 
+Na interface, o usuário vê:
+
+* O **logo da marca "Nexa Sneakers"** ao centro.
+* Um texto comunicando:
+  *“Que tal criar uma conta para continuar comprando? Se já possui cadastro, entre em sua conta :)”*
+* Dois botões principais:
+
+  * **Cadastrar-se**
+  * **Entrar**
+* Fundo simples, limpo, sem distrações, reforçando o foco na ação principal.
+
+A página não possui campo de login direto — ela apenas direciona o usuário para as telas adequadas.
+
+---
+
+# Requisitos Funcionais (RF)
+
+### Redirecionamento ao clicar em qualquer produto
+
+Ao selecionar um produto no catálogo, caso o usuário não esteja autenticado, ele deve ser automaticamente enviado para esta tela.
+
+### Exibição da mensagem de incentivo ao cadastro/login
+
+A página deve exibir o texto motivando o usuário a criar uma conta ou acessar a sua.
+
+### Botão “Cadastrar-se”**
+
+Ao clicar, o sistema deve redirecionar o usuário para o formulário de cadastro.
+
+### Botão “Entrar”
+
+Ao clicar, o sistema deve redirecionar o usuário para a tela de login.
+
+### Verificação de sessão
+
+O sistema deve verificar se o usuário possui uma sessão ativa (ex.: via localStorage, sessionStorage ou cookies).
+Se sim:
+
+* O usuário **não deve ver essa tela**
+* Ele deve ser levado ao produto escolhido normalmente.
+
+### Comportamento responsivo
+
+A página deve ajustar seu layout para diferentes tamanhos de tela (PC, tablet, smartphone).
+
+# Requisitos Não Funcionais (RNF)
+
+### Simplicidade e foco
+
+A página deve manter layout minimalista, garantindo clareza e foco na ação desejada (login/cadastro).
+
+### Tempo de resposta
+
+O redirecionamento para a tela de login ou cadastro deve acontecer em no máximo **1 segundo**, garantindo boa experiência.
+
+### Segurança
+
+Nenhuma informação sensível deve ser exposta nesta tela.
+A verificação de login deve ser feita apenas após o redirecionamento.
+
+### Acessibilidade Visual
+
+Contraste adequado entre texto e fundo, facilitando leitura.
+
+### Modularidade
+
+A tela deve ser fácil de substituir ou estilizar, mantendo sua funcionalidade independente do restante do site.
+
+---
 
 <img width="1895" height="929" alt="image" src="https://github.com/user-attachments/assets/5332e3b1-37c9-4cc9-8049-f44f715db1eb" />
 
